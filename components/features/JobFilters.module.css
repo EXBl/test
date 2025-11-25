@@ -1,0 +1,51 @@
+.filters {
+    position: sticky;
+    top: 80px;
+    /* Header height + gap */
+}
+
+.title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.section {
+    margin-bottom: 1.5rem;
+}
+
+.subtitle {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.category {
+    text-align: left;
+    padding: 0.5rem;
+    border-radius: var(--radius);
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    transition: all 0.2s;
+}
+
+.category:hover {
+    background-color: var(--background);
+    color: var(--text-main);
+}
+
+.category.active {
+    background-color: var(--primary);
+    color: white;
+}
+
+.resetButton {
+    width: 100%;
+}

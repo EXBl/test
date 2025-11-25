@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "role": "executor",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "bio": "Frontend developer with 5 years of experience."
+    },
+    {
+      "id": "2",
+      "name": "Tech Corp",
+      "email": "hr@techcorp.com",
+      "password": "password123",
+      "role": "employer",
+      "companyName": "Tech Corp Inc."
+    },
+    {
+      "id": "admin",
+      "name": "Admin User",
+      "email": "admin@jobboard.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": "p77ag50ks",
+      "name": "huisos",
+      "email": "huisos@ya.ru",
+      "role": "executor"
+    },
+    {
+      "id": "hpvewb6si",
+      "name": "ya",
+      "email": "da@da.ru",
+      "role": "employer"
+    },
+    {
+      "id": "h8pw3pv2y",
+      "name": "123",
+      "email": "123@mail.ru",
+      "role": "executor"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior Frontend Developer",
+      "company": "Tech Corp Inc.",
+      "location": "Remote",
+      "salary": "150,000 - 200,000 RUB",
+      "description": "We are looking for a Senior Frontend Developer to join our team...",
+      "category": "IT",
+      "postedAt": "2023-10-25",
+      "employerId": "2",
+      "status": "APPROVED"
+    },
+    {
+      "id": "2",
+      "title": "UX Designer",
+      "company": "Design Studio",
+      "location": "Moscow",
+      "salary": "100,000 - 150,000 RUB",
+      "description": "Creative UX Designer needed for mobile app projects...",
+      "category": "Design",
+      "postedAt": "2023-10-24",
+      "employerId": "3",
+      "status": "APPROVED"
+    },
+    {
+      "title": "Продажа пельменей",
+      "company": "Пельмени",
+      "location": "Пермь",
+      "salary": "10 000 руб",
+      "category": "Sales",
+      "description": "Продавать пельмени с кайфом",
+      "employerId": "hpvewb6si",
+      "id": "1dpmtof64",
+      "postedAt": "2025-11-25",
+      "status": "APPROVED"
+    }
+  ]
+}

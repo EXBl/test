@@ -1,0 +1,26 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./components/ui/Card.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.Card_card__k57D1 {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+.Card_padding-none__HyvjU {
+    padding: 0;
+}
+
+.Card_padding-sm__WFScV {
+    padding: 0.75rem;
+}
+
+.Card_padding-md__cgqwn {
+    padding: 1.5rem;
+}
+
+.Card_padding-lg__GvJor {
+    padding: 2rem;
+}

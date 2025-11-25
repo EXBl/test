@@ -1,0 +1,87 @@
+.container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 6rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: 2.5rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.featured {
+    margin-bottom: 6rem;
+}
+
+.sectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.viewAll {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.viewAll:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.ctaCard {
+    background: linear-gradient(to right, #1e293b, #0f172a);
+    color: white;
+    border: none;
+}
+
+.ctaContent {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ctaContent h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ctaContent p {
+    color: #94a3b8;
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+}

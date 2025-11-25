@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1e293b;
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #60a5fa;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.link {
+    padding: 0.75rem 1rem;
+    border-radius: 0.375rem;
+    color: #94a3b8;
+    transition: all 0.2s;
+}
+
+.link:hover {
+    background-color: #334155;
+    color: white;
+}
+
+.content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #f1f5f9;
+}
