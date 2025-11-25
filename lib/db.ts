@@ -41,6 +41,15 @@ export class JsonDB {
         return user;
     }
 
+    async updateUser(user: User): Promise<void> {
+        const db = await this.readDB();
+        const userIndex = db.users.findIndex(u => u.id === user.id);
+        if (userIndex !== -1) {
+            db.users[userIndex] = user;
+            await this.writeDB(db);
+        }
+    }
+
     async getJobs(): Promise<JobWithStatus[]> {
         const db = await this.readDB();
         return db.jobs as JobWithStatus[];

@@ -128,7 +128,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   getAdminStatsAction: function() { return /* binding */ getAdminStatsAction; },
 /* harmony export */   getAllUsersAction: function() { return /* binding */ getAllUsersAction; },
 /* harmony export */   getPendingJobsAction: function() { return /* binding */ getPendingJobsAction; },
-/* harmony export */   rejectJobAction: function() { return /* binding */ rejectJobAction; }
+/* harmony export */   rejectJobAction: function() { return /* binding */ rejectJobAction; },
+/* harmony export */   updateUserPasswordAction: function() { return /* binding */ updateUserPasswordAction; }
 /* harmony export */ });
 /* harmony import */ var next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/client/app-call-server */ "(app-pages-browser)/./node_modules/next/dist/client/app-call-server.js");
 /* harmony import */ var next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__);
@@ -140,12 +141,13 @@ function __build_action__(action, args) {
   return (0,next_dist_client_app_call_server__WEBPACK_IMPORTED_MODULE_0__.callServer)(action.$$id, args)
 }
 
-/* __next_internal_action_entry_do_not_use__ {"a2102ff108b645a2c45631eddb031a4ed9fac7af":"getAllUsersAction","ba3f2fbe399e05359127f246b7004c10d7317547":"rejectJobAction","c67e4ab949b133ce785d1b8ea5dc2bae8153a19a":"getPendingJobsAction","d9960e0e8225f9bb17759abcf11882553637389f":"getAdminStatsAction","ec48e9dcc1a3da2243bf24fa8028c3955276ff1b":"approveJobAction"} */ var getAdminStatsAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("d9960e0e8225f9bb17759abcf11882553637389f");
+/* __next_internal_action_entry_do_not_use__ {"a2102ff108b645a2c45631eddb031a4ed9fac7af":"getAllUsersAction","ba3f2fbe399e05359127f246b7004c10d7317547":"rejectJobAction","c67e4ab949b133ce785d1b8ea5dc2bae8153a19a":"getPendingJobsAction","d9960e0e8225f9bb17759abcf11882553637389f":"getAdminStatsAction","e536727d1f855010efa14eb4942903e50048b374":"updateUserPasswordAction","ec48e9dcc1a3da2243bf24fa8028c3955276ff1b":"approveJobAction"} */ var updateUserPasswordAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("e536727d1f855010efa14eb4942903e50048b374");
 
 var getPendingJobsAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("c67e4ab949b133ce785d1b8ea5dc2bae8153a19a");
 var approveJobAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("ec48e9dcc1a3da2243bf24fa8028c3955276ff1b");
 var rejectJobAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("ba3f2fbe399e05359127f246b7004c10d7317547");
 var getAllUsersAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("a2102ff108b645a2c45631eddb031a4ed9fac7af");
+var getAdminStatsAction = (0,private_next_rsc_action_client_wrapper__WEBPACK_IMPORTED_MODULE_1__.createServerReference)("d9960e0e8225f9bb17759abcf11882553637389f");
 
 
 

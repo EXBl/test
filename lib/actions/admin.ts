@@ -31,3 +31,16 @@ export async function getAdminStatsAction() {
         totalUsers: users.length,
     };
 }
+
+export async function updateUserPasswordAction(userId: string, newPassword: string) {
+    const users = await db.getUsers();
+    const user = users.find(u => u.id === userId);
+
+    if (user) {
+        user.password = newPassword;
+        await db.updateUser(user);
+        return { success: true };
+    }
+
+    return { success: false, error: 'User not found' };
+}

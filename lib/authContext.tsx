@@ -6,9 +6,9 @@ import { loginAction, registerAction, logoutAction, getSessionAction } from './a
 
 interface AuthContextType {
     user: User | null;
-    login: (email: string, role: string) => Promise<void>;
+    login: (email: string, role: string, password?: string) => Promise<void>;
     logout: () => Promise<void>;
-    register: (name: string, email: string, role: 'executor' | 'employer') => Promise<void>;
+    register: (name: string, email: string, role: 'executor' | 'employer', password?: string) => Promise<void>;
     isLoading: boolean;
 }
 
@@ -33,8 +33,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         }
     };
 
-    const login = async (email: string, role: string) => {
-        const result = await loginAction(email, role);
+    const login = async (email: string, role: string, password?: string) => {
+        const result = await loginAction(email, role, password);
         if (result.success && result.user) {
             setUser(result.user);
         } else {
@@ -47,8 +47,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         setUser(null);
     };
 
-    const register = async (name: string, email: string, role: 'executor' | 'employer') => {
-        const result = await registerAction(name, email, role);
+    const register = async (name: string, email: string, role: 'executor' | 'employer', password?: string) => {
+        const result = await registerAction(name, email, role, password);
         if (result.success && result.user) {
             setUser(result.user);
         } else {

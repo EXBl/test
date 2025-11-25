@@ -5,6 +5,7 @@ export interface User {
     name: string;
     email: string;
     role: UserRole;
+    password?: string;
     avatar?: string;
     companyName?: string; // Only for employers
     skills?: string[]; // Only for executors
