@@ -26,7 +26,7 @@ export default function RegisterPage() {
         await new Promise(resolve => setTimeout(resolve, 1000));
 
         try {
-            await register(name, email, role);
+            await register(name, email, role, password);
             if (role === 'employer') {
                 router.push('/dashboard');
             } else {
